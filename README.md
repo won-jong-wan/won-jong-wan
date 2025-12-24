@@ -7,16 +7,6 @@
 
 ## 🧠 주요 프로젝트
 
-### 🎮 [dance_with_VGA_STM32F411RE](https://github.com/won-jong-wan/dance_with_VGA_STM32F411RE)
-**STM32F411RE Nucleo 보드를 활용한 VGA 비디오 출력 구현**
-
-- **핵심 기술**: STM32F411RE, VGA 프로토콜, 임베디드 C
-- **주요 성과**: 640×480@60Hz 해상도의 VGA 신호 생성
-- **특징**:
-  - 마이크로컨트롤러의 타이머와 DMA를 활용한 효율적인 비디오 신호 생성
-  - 하드웨어 리소스를 최적화하여 안정적인 60Hz 출력 달성
-  - 베어메탈 프로그래밍을 통한 Low-level 하드웨어 제어 경험
-
 ### 🎤 [Pride-and-Prejudice](https://github.com/won-jong-wan/Pride-and-Prejudice)
 **Hailo 8 + Raspberry Pi를 이용한 AI 기반 모의면접 시스템**
 
@@ -27,15 +17,15 @@
   - Hailo 8 가속기를 통한 효율적인 AI 모델 실행
   - 취업 준비생을 위한 실전 면접 연습 환경 제공
 
-### 🥷 [ninja-academy](https://github.com/won-jong-wan/ninja-academy)
-**YOLOX 기반 실시간 포즈 인식 & 분신술 효과 생성**
+### 🎮 [dance_with_VGA_STM32F411RE](https://github.com/won-jong-wan/dance_with_VGA_STM32F411RE)
+**STM32F411RE Nucleo 보드를 활용한 VGA 비디오 출력 구현**
 
-- **핵심 기술**: YOLOX, OpenCV, Python, 컴퓨터 비전
-- **주요 성과**: 실시간 카메라 입력으로 사람 포즈 인식 및 시각 효과 생성
+- **핵심 기술**: STM32F411RE, VGA 프로토콜, 임베디드 C
+- **주요 성과**: 640×480@60Hz 해상도의 VGA 신호 생성
 - **특징**:
-  - YOLOX 객체 감지 모델을 활용한 실시간 포즈 추적
-  - 분신술 효과를 위한 커스텀 후처리 알고리즘 구현
-  - 웹캠 기반 인터랙티브 시각 효과 데모
+  - 마이크로컨트롤러의 타이머와 DMA를 활용한 효율적인 비디오 신호 생성
+  - 하드웨어 리소스를 최적화하여 안정적인 60Hz 출력 달성
+  - 베어메탈 프로그래밍을 통한 Low-level 하드웨어 제어 경험
 
 ### 🤖 [pf_amcl](https://github.com/won-jong-wan/pf_amcl)
 **ROS2 기반 로봇 위치 추정 및 경로 계획 시스템**
@@ -47,6 +37,16 @@
   - Potential Field 알고리즘으로 동적 장애물 회피 및 경로 계획
   - Gazebo 시뮬레이터에서 TurtleBot3 검증 완료
   - 인력/척력 파라미터 조정 가능한 유연한 설계
+
+### 🥷 [ninja-academy](https://github.com/won-jong-wan/ninja-academy)
+**YOLOX 기반 실시간 포즈 인식 & 분신술 효과 생성**
+
+- **핵심 기술**: YOLOX, OpenCV, Python, 컴퓨터 비전
+- **주요 성과**: 실시간 카메라 입력으로 사람 포즈 인식 및 시각 효과 생성
+- **특징**:
+  - YOLOX 객체 감지 모델을 활용한 실시간 포즈 추적
+  - 분신술 효과를 위한 커스텀 후처리 알고리즘 구현
+  - 웹캠 기반 인터랙티브 시각 효과 데모
 
 ### 🎮 [A-safe-picking-game](https://github.com/won-jong-wan/A-safe-picking-game)
 **안드로이드 기반 게임 애플리케이션**
