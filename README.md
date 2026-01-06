@@ -27,16 +27,31 @@
   - 하드웨어 리소스를 최적화하여 안정적인 60Hz 출력 달성
   - 베어메탈 프로그래밍을 통한 Low-level 하드웨어 제어 경험
 
+### ⌨️ [USB-Macro](https://github.com/won-jong-wan/USB-Macro)
+**로봇 제어 자동화를 위한 USB 동글 시스템 (Plug & Run)**
+
+- **핵심 기술**: STM32F411 (Black Pill), TinyUSB, Linux Kernel Driver, Qt, Python
+- **주요 성과**: SSH/네트워크 없이도 로봇을 자동으로 제어할 수 있는 현장 친화적 시스템 구현
+- **특징**:
+  - PC에서 명령 패킷을 미리 적재 → 로봇에 꽂으면 자동 실행되는 Plug & Run 구조
+  - 네트워크 장애 시에도 CDC↔UART 시리얼 브릿지로 라즈베리파이 콘솔 접근 가능
+  - PC(Qt GUI) → 동글(STM32 펌웨어) → 로봇(RPi Daemon) 전체 스택 직접 구현
+  - 커스텀 Linux 커널 드라이버 개발로 `/dev/custom_usb_*` 디바이스 파일 인터페이스 제공
+  - 로봇 현장에서 SSH/네트워크 불안정 문제를 하드웨어 레벨에서 해결
+
 ### 🤖 [pf_amcl](https://github.com/won-jong-wan/pf_amcl)
-**ROS2 기반 로봇 위치 추정 및 경로 계획 시스템**
+**ROS2 기반 로봇 위치 추정 및 경로 계획 교육 프로젝트**
 
 - **핵심 기술**: ROS2, AMCL, Potential Field, Gazebo, C++/Python
-- **주요 성과**: 자율주행 로봇을 위한 실시간 위치 추정 및 장애물 회피 구현
+- **프로젝트 배경**: 로봇공학 수업의 조교로 근무하며 학생들의 최종 과제로 설계한 프로젝트
+- **교육 목표**: 
+  - AMCL(Adaptive Monte Carlo Localization)을 통한 로봇 위치 추정 이해
+  - Potential Field 알고리즘 기반 경로 계획 및 장애물 회피 구현 능력 배양
+  - ROS2 프레임워크와 Gazebo 시뮬레이터 활용 경험
 - **특징**:
-  - AMCL(Adaptive Monte Carlo Localization)을 이용한 정확한 로봇 위치 추정
-  - Potential Field 알고리즘으로 동적 장애물 회피 및 경로 계획
-  - Gazebo 시뮬레이터에서 TurtleBot3 검증 완료
-  - 인력/척력 파라미터 조정 가능한 유연한 설계
+  - TurtleBot3를 활용한 실습 중심 과제 구성
+  - 인력/척력 파라미터 조정을 통한 알고리즘 이해 심화
+  - 실제 로봇 시스템 개발의 전체 파이프라인 경험 제공
 
 ### 🥷 [ninja-academy](https://github.com/won-jong-wan/ninja-academy)
 **YOLOX 기반 실시간 포즈 인식 & 분신술 효과 생성**
@@ -105,7 +120,3 @@
 
 📧 Email: jonwon2009@naver.com  
 💼 GitHub: [@won-jong-wan](https://github.com/won-jong-wan)
-
----
-
-⭐️ 프로젝트가 마음에 드신다면 Star를 눌러주세요!
