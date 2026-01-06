@@ -53,16 +53,6 @@
   - 인력/척력 파라미터 조정을 통한 알고리즘 이해 심화
   - 실제 로봇 시스템 개발의 전체 파이프라인 경험 제공
 
-### 🥷 [ninja-academy](https://github.com/won-jong-wan/ninja-academy)
-**YOLOX 기반 실시간 포즈 인식 & 분신술 효과 생성**
-
-- **핵심 기술**: YOLOX, OpenCV, Python, 컴퓨터 비전
-- **주요 성과**: 실시간 카메라 입력으로 사람 포즈 인식 및 시각 효과 생성
-- **특징**:
-  - YOLOX 객체 감지 모델을 활용한 실시간 포즈 추적
-  - 분신술 효과를 위한 커스텀 후처리 알고리즘 구현
-  - 웹캠 기반 인터랙티브 시각 효과 데모
-
 ### 🎮 [A-safe-picking-game](https://github.com/won-jong-wan/A-safe-picking-game)
 **안드로이드 기반 게임 애플리케이션**
 
