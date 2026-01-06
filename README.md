@@ -7,6 +7,18 @@
 
 ## 🧠 주요 프로젝트
 
+### ⌨️ [USB-Macro](https://github.com/won-jong-wan/USB-Macro)
+**로봇 제어 자동화를 위한 USB 동글 시스템 (Plug & Run)**
+
+- **핵심 기술**: STM32F411 (Black Pill), TinyUSB, Linux Kernel Driver, Qt, Python
+- **주요 성과**: SSH/네트워크 없이도 로봇을 자동으로 제어할 수 있는 현장 친화적 시스템 구현
+- **특징**:
+  - PC에서 명령 패킷을 미리 적재 → 로봇에 꽂으면 자동 실행되는 Plug & Run 구조
+  - 네트워크 장애 시에도 CDC↔UART 시리얼 브릿지로 라즈베리파이 콘솔 접근 가능
+  - PC(Qt GUI) → 동글(STM32 펌웨어) → 로봇(RPi Daemon) 전체 스택 직접 구현
+  - 커스텀 Linux 커널 드라이버 개발로 `/dev/custom_usb_*` 디바이스 파일 인터페이스 제공
+  - 로봇 현장에서 SSH/네트워크 불안정 문제를 하드웨어 레벨에서 해결
+
 ### 🎤 [Pride-and-Prejudice](https://github.com/won-jong-wan/Pride-and-Prejudice)
 **Hailo 8 + Raspberry Pi를 이용한 AI 기반 모의면접 시스템**
 
@@ -26,18 +38,6 @@
   - 마이크로컨트롤러의 타이머와 DMA를 활용한 효율적인 비디오 신호 생성
   - 하드웨어 리소스를 최적화하여 안정적인 60Hz 출력 달성
   - 베어메탈 프로그래밍을 통한 Low-level 하드웨어 제어 경험
-
-### ⌨️ [USB-Macro](https://github.com/won-jong-wan/USB-Macro)
-**로봇 제어 자동화를 위한 USB 동글 시스템 (Plug & Run)**
-
-- **핵심 기술**: STM32F411 (Black Pill), TinyUSB, Linux Kernel Driver, Qt, Python
-- **주요 성과**: SSH/네트워크 없이도 로봇을 자동으로 제어할 수 있는 현장 친화적 시스템 구현
-- **특징**:
-  - PC에서 명령 패킷을 미리 적재 → 로봇에 꽂으면 자동 실행되는 Plug & Run 구조
-  - 네트워크 장애 시에도 CDC↔UART 시리얼 브릿지로 라즈베리파이 콘솔 접근 가능
-  - PC(Qt GUI) → 동글(STM32 펌웨어) → 로봇(RPi Daemon) 전체 스택 직접 구현
-  - 커스텀 Linux 커널 드라이버 개발로 `/dev/custom_usb_*` 디바이스 파일 인터페이스 제공
-  - 로봇 현장에서 SSH/네트워크 불안정 문제를 하드웨어 레벨에서 해결
 
 ### 🤖 [pf_amcl](https://github.com/won-jong-wan/pf_amcl)
 **ROS2 기반 로봇 위치 추정 및 경로 계획 교육 프로젝트**
