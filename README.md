@@ -29,6 +29,19 @@
   - Hailo 8 가속기를 통한 효율적인 AI 모델 실행
   - 취업 준비생을 위한 실전 면접 연습 환경 제공
 
+### 🎹 [SYNTH_RTOS_BLACKPILL](https://github.com/won-jong-wan/SYNTH_RTOS_BLACKPILL)
+**RTOS 기반 실시간 디지털 신디사이저**
+
+- **핵심 기술**: STM32F411 (Black Pill), FreeRTOS, I2S DAC, DMA, DSP
+- **주요 성과**: 44.1kHz 실시간 오디오 생성 및 멀티 보이스 폴리포니 구현
+- **특징**:
+  - DDS(Direct Digital Synthesis) 기반 파형 생성 (Sine/Square/Saw)
+  - ADSR Envelope과 2차 IIR Low-Pass Filter를 통한 음색 제어
+  - I2S DMA Circular Buffer와 RTOS 태스크를 활용한 끊김 없는 오디오 스트림
+  - 키패드 입력과 로터리 엔코더를 통한 직관적인 파라미터 제어
+  - ILI9341 TFT LCD에 ADSR 그래프 및 파형 실시간 시각화
+  - 멀티 보이스 폴리포니 및 Voice Stealing 알고리즘 구현
+
 ### 🎮 [dance_with_VGA_STM32F411RE](https://github.com/won-jong-wan/dance_with_VGA_STM32F411RE)
 **STM32F411RE Nucleo 보드를 활용한 VGA 비디오 출력 구현**
 
@@ -69,6 +82,7 @@
 ![STM32](https://img.shields.io/badge/STM32-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white)
 ![ARM](https://img.shields.io/badge/ARM-0091BD?style=flat-square)
 ![Firmware](https://img.shields.io/badge/Firmware-555555?style=flat-square)
+![FreeRTOS](https://img.shields.io/badge/FreeRTOS-00979D?style=flat-square)
 
 ### Robotics & Automation
 ![ROS2](https://img.shields.io/badge/ROS2-22314E?style=flat-square&logo=ros&logoColor=white)
@@ -93,6 +107,7 @@
 ## 🎯 관심 분야
 
 - 💡 **임베디드 시스템 & 펌웨어 개발**: MCU 기반 시스템 설계 및 구현
+- 🎵 **실시간 오디오/DSP 처리**: RTOS 기반 디지털 신호 처리 및 음향 시스템
 - 🤖 **Edge AI & 하드웨어 가속**: AI 모델의 임베디드 환경 최적화
 - 🚗 **로봇공학 & 자율주행**: ROS 기반 로봇 시스템 개발
 - 🎨 **그래픽스 & 비디오 신호 처리**: VGA, HDMI 등 디스플레이 인터페이스
