@@ -65,12 +65,6 @@
   - 인력/척력 파라미터 조정을 통한 알고리즘 이해 심화
   - 실제 로봇 시스템 개발의 전체 파이프라인 경험 제공
 
-### 🎮 [A-safe-picking-game](https://github.com/won-jong-wan/A-safe-picking-game)
-**안드로이드 기반 게임 애플리케이션**
-
-- **핵심 기술**: Java, Android SDK
-- **특징**: 대학 과제로 개발한 모바일 게임 프로젝트
-
 ---
 
 ## 💻 기술 스택
